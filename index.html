@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smiling Friends Inc</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
-        <img src="./images/SmilingFriendsIncLogo.png">
-        <p>Smiling Friends Inc.</p>
+        <img id="logo" src="./images/SmilingFriendsIncLogo.png">
+        <p id="title">Smiling Friends Inc.</p>
+        <div class="links">
         <a href="#quote">Motto</a>
         <a href="#staff">Staff</a>
         <a href="#former-staff">Former Staff</a>
         <a href="#testimonials">Testimonials</a>
+        </div>
     </div>
     <div class="container">
         <div class="body">
-            <h1>Smiling Friends Inc.</h1>
+            
             <div class="info">
+                <div class="intro">
+                <h1>Smiling Friends Inc.</h1>
                 <p>Smiling Friends Inc is a company that brings joy to people. We strive turn that frown upside down! We will do everything to make that happen no matter the inconvenience.</p>
+                </div>
                 <img src="./images/smilingfriendstext.png" alt="Smiling Friends">
             </div>
                 <div class="quote" id="quote">    
-                <p> Like our mission statement declares in our official plaque:</p>
-                <blockquote> the smiling friends musst dooo whateva thee client asks until they smile!! :-&#41; - no exceptions.</blockquote>
+                <p id="quote-intro"> Like our mission statement declares in our official plaque:</p>
+                <blockquote><p> the smiling friends musst dooo whateva thee client asks until they smile!! :-&#41; - no exceptions.</p></blockquote>
             </div>
             <div class="staff" id="staff">
-                <h2>The Boss</h2>
+                <p id="meet">Meet our Team!</p>
+                <h2 class="section-title">The Boss</h2>
                 <div class="card" id="boss">
                    <a href="https://smilingfriends.fandom.com/wiki/Mr._Boss" target="_blank"><img src="images/mrboss.png" alt="Mr. Boss"></a>
                    <p class="caption">Mr. Boss</p> 
                 </div>
+                <h2 class="section-title">Employees</h2>
                 <div class="employees">
-                    <h2>Employees</h2>
+                    
                     <div class="card" id="charlie">
                     <a href="https://smilingfriends.fandom.com/wiki/Charlie_Dompler" target="_blank"><img src="./images/charlie.jpeg" alt="Charlie Dompler"></a>
                     <p class="caption">Charlie Dompler</p>
@@ -50,8 +58,10 @@
                     <p class="caption">Glep</p>
                     </div>
                 </div>
+                <div class="f-staff">
+                <h2 class="section-title">Former Staff</h2>
                 <div class="former-staff" id="former-staff">
-                    <h2>Former Staff</h2>
+                    
                     <div class="card" id="smormu">
                         <a href="https://smilingfriends.fandom.com/wiki/Smormu_James_Carter" target="_blank"><img src="./images/smormu.png" alt="It's Smormu"></a>
                     <p class="caption">Smormu James Carter</p>
@@ -61,9 +71,11 @@
                     <p class="caption">Tyler</p>
                     </div>
                 </div>
+                </div>
             </div>
+            <h2 class="section-title">Testimonials</h2>
             <div class="testimonials" id="testimonials">
-                <h2>Testimonials</h2>
+                
                 <div class="card" id="desmond">
                     <a href="https://smilingfriends.fandom.com/wiki/Desmond%27s_Big_Day_Out" target="_blank"><img src="./images/desmond.png" alt="Desmond"></a>
                     <p class="caption">Desmond</p>

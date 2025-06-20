@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 184, 185);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    padding: 8px;
+    margin: 0;
+    background-color: rgb(190, 93, 147);
+    height: 72px;
+    align-items: center;
+    color: white;
+    gap: 12px;
+    
+    
+}
+
+#logo {
+
+   width: 70px;
+}
+
+.card {
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 8px;
+    flex: 0 1 auto;
+    justify-content: space-evenly;
+    
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    align-self: center;
+    
+}
+
+.caption {
+    object-fit: contain;
+    align-self: center;
+}
+.testimonials, .employees, .former-staff {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.footer {
+    background-color: rgb(190, 93,147);
+    color: rgb(214, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.caption {
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.info {
+    background-color: aquamarine;
+    display: flex;
+    padding: 16px;
+}
+
+.quote {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info img {
+    width: 400px;
+    height: auto;
+    margin-left: 8px;
+}
+
+#title {
+    font-size: 40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: beige;
+    text-align: end;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  width: 300px;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-weight: 700;
+  font-size: 22px;
+  color: rgb(129, 104, 21);
+}
+
+#quote-intro {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro p {
+    font-size: 22px;
+    
+}
+
+.staff {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+#boss {
+    margin: 0  auto 0 auto;
+}
+
+.staff {
+    background-color: rgb(203, 241, 171);
+}
+
+.f-staff {
+    background-color: rgb(194, 85, 85);
+}
+
+#meet {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+}
